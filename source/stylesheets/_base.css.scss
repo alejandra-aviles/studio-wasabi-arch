@@ -1,0 +1,55 @@
+h1 {
+	font-weight: 600;
+	font-size: 1.1em;
+	letter-spacing: 0.5px;
+}
+
+h2 {
+	font-size: 1.1em;
+	letter-spacing: 1px;
+
+}
+
+h3 {
+}
+
+h4 {
+
+}
+
+h5 {
+	font-size: 0.9em;
+	line-height: 1.4em;
+
+}
+
+h6 {
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	font-weight: 100;
+	line-height: 20px;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	letter-spacing: 0.2px;
+	font-weight: 400;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+
+em {
+	font-style: italic;
+}
+
+
+span {
+
+}
+
+iframe + p {
+	margin-top:30px;
+}

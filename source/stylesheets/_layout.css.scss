@@ -1,0 +1,188 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+}
+
+body {
+	font-size: 16px;
+	font-family:  "Times New Roman", Times, serif;
+	color: #3c3c3c;
+	::selection { background-color: #e2dede; }
+	img {
+		width: 100%;
+	}
+}
+
+#main { max-width: 1400px; }
+
+.container {
+	padding-left:350px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 300px;
+	@include group;
+}
+
+a {
+	text-decoration: none;
+	color:#3c3c3c;
+}
+
+a:hover {
+
+}
+
+body.ritos-estructurales {
+	.proyects {
+		.ritos-estructurales {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.la-huida-del-tiempo {
+	.proyects {
+		.la-huida-del-tiempo {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.campos-de-honor {
+	.proyects {
+		.campos-de-honor {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.monumento-a-la-inmaterialidad {
+	.proyects {
+		.monumento-a-la-inmaterialidad {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.parasito-cosmico {
+	.proyects {
+		.parasito-cosmico {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.sinfonia-triste {
+	.proyects {
+		.sinfonia-triste {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.la-conspiracion-de-las-bestias {
+	.proyects {
+		.la-conspiracion-de-las-bestias {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.miercoles-de-ceniza {
+	.proyects {
+		.miercoles-de-ceniza {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.el-trabajo-te-hara-libre {
+	.proyects {
+		.el-trabajo-te-hara-libre {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.gloria-desierta {
+	.proyects {
+		.gloria-desierta {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.white-dumbo-flying-over-infonavit {
+	.proyects {
+		.white-dumbo-flying-over-infonavit {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.other-work {
+	.proyects {
+		.other-work {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.bombiux-tix-tix {
+	.proyects {
+		.bombiux-tix-tix {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.super-punk-lorena-pena {
+	.proyects {
+		.super-punk-lorena-pena {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.white-dumbo-flying-over-infonavit-ruben-mendez {
+	.proyects {
+		.white-dumbo-flying-over-infonavit-ruben-mendez {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.el-trabajo-te-hara-libre-joaquin-segura {
+	.proyects {
+		.el-trabajo-te-hara-libre-joaquin-segura {
+			font-size: 0.9em !important;
+			color: #3c3c3c !important;
+		}
+	}
+}
+body.biography {
+	.section-nav {
+		.biography {
+			
+			color: black !important;
+		}
+	}
+}
+body.statement {
+	.section-nav {
+		.statement {
+			
+			color: black !important;
+		}
+	}
+}
+body.contact {
+	.section-nav {
+		.contact {
+			
+			color: black !important;
+		}
+	}
+}

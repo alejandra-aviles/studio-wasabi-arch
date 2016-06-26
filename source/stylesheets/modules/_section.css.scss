@@ -1,0 +1,21 @@
+section {
+	@include group;
+	padding-bottom: 50px;
+}
+
+.section-center {
+	text-align: center;
+}
+
+.section-izq {
+	padding-top: 20px;
+	padding-bottom: 60px;
+
+}
+
+.section-der {
+	float: right;
+	padding-top: 10px;
+	display: inline-block;
+	padding-bottom: 70px;
+}
