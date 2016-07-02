@@ -1,6 +1,7 @@
 $(document).ready(function(){
-	$('.slider').each(function(index, sliderEl){
-		var sliderEl = $(sliderEl);
+	$('.slider-wrapper').each(function(index, sliderWrapperEl){
+		var sliderWrapperEl = $(sliderWrapperEl);
+		var sliderEl = $('.slider', sliderEl);
 		var sliderId = sliderEl.attr("id");
 		var sliderControlsEl = $(".slider-controls[data-slider='" + sliderId + "']");
 
@@ -25,9 +26,10 @@ $(document).ready(function(){
 		});
 
 		function isRightSide(event) {
-			var width = $(sliderEl).width();
-			var sliderElX = $(sliderEl).position().left;
+			var width = sliderWrapperEl.width();
+			var sliderElX = sliderWrapperEl.position().left;
 			var xPosition = event.pageX - sliderElX;
+
 			return xPosition > width / 2;
 		}
 
